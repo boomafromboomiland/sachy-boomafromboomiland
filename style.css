@@ -1,0 +1,123 @@
+body {
+    max-width: 600px;
+    margin: 0 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+h2,
+p {
+    display: flex;
+    flex-direction: column;
+    padding: 0 5px;
+    margin: 0;
+    text-align: start;
+}
+
+h2 {
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+p {
+    font-size: 12px;
+}
+
+.img_honza,
+.img_adela {
+    object-fit: cover;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.meno,
+.meno_2 {
+    display: flex;
+    flex-direction: column;
+}
+
+.meno_2 {
+    align-items: end;
+}
+
+h3 {
+    text-align: center;
+    font-size: 16px;
+}
+
+span {
+    background-color: blue;
+    border-radius: 4px;
+    border: 1px solid darkblue;
+    padding: 5px 15px;
+    color: white;
+    margin: 10px 0 0 230px;
+}
+
+.sachovnice {
+    background-image: url("obrazky/bonus/sachovnice.svg");
+    background-size: 25%;
+    width: 548px;
+    height: auto;
+    border: 7px solid rgb(66, 39, 39);
+    border-radius: 4px;
+    margin: 10px 0;
+    display: grid;
+    grid-template-rows: 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px;
+    grid-template-columns: 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px;
+    grid-gap: 0;
+}
+
+.strelec-cerna {
+    grid-column: 5/10;
+    grid-row: 1;
+}
+
+.pesec-cerna {
+    grid-column: 1;
+    grid-row: 2;
+}
+
+.pesec-cerna_2 {
+    grid-column: 3/10;
+    grid-row: 3;
+}
+
+.pesec-bila {
+    grid-column: 4/10;
+    grid-row: 4;
+}
+
+.pesec-cerna_3 {
+    grid-column: 8/10;
+    grid-row: 4;
+}
+
+.kun-bila {
+    grid-column: 2/10;
+    grid-row: 5;
+}
+
+.kral-cerna {
+    grid-column: 6/10;
+    grid-row: 6;
+}
+
+.vez-cerna {
+    grid-column: 3/10;
+    grid-row: 8;
+}
+
+.kral-bila {
+    grid-column: 6/10;
+    grid-row: 8;
+}
