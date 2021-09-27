@@ -66,6 +66,7 @@ span {
 .sachovnice {
     background-image: url("obrazky/bonus/sachovnice.svg");
     background-size: 25%;
+    object-fit: cover;
     width: 548px;
     height: auto;
     border: 7px solid rgb(66, 39, 39);
