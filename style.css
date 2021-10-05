@@ -65,7 +65,7 @@ span {
 
 .sachovnice {
     background-image: url("obrazky/bonus/sachovnice.svg");
-    background-size: 25%;
+    background-size: 25% 25%;
     object-fit: cover;
     width: 548px;
     height: auto;
@@ -73,8 +73,8 @@ span {
     border-radius: 4px;
     margin: 10px 0;
     display: grid;
-    grid-template-rows: 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px;
-    grid-template-columns: 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px 68.5px;
+    grid-template-rows: repeat(8, 68.5px);
+    grid-template-columns: repeat(8, 68.5px);
     grid-gap: 0;
 }
 
